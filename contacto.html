@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="accion.js"></script>
+</head>
+<body>
+    <header>
+    <div class="logo-titulo">
+        <img src="/IMG/logoMRS.png" alt="logo" class="logo">
+        <h1>Margarita Rodríguez<br><span>Studio</span></h1>
+    </div>
+</header>
+
+<nav>
+  <a href="/Margarita.html" class="nav-enlace"><b>Inicio</b></a>
+  <a href="/servicioMaquillaje.html" class="nav-enlace"><b>Servicios Maquillaje</b></a>
+  <a href="/belleza.html" class="nav-enlace"><b>Belleza</b></a>
+  <a href="/contacto.html" class="nav-enlace"><b>Contacto</b></a>
+</nav>
+
+<div class="contenedor">
+    <div class="bloque">
+        <h2>Formulario de Contacto</h2>
+        <form action="https://formsubmit.co/santiagoacevedovidal@gmail.com" method="POST">
+  <!-- Redirección opcional tras enviar -->
+  <input type="hidden" name="_next" value="http://127.0.0.1:5501/Margarita.html">
+  <!-- Desactiva CAPTCHA si quieres -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <label for="nombre"><b>Nombre:</b></label><br>
+  <input type="text" id="nombre" name="nombre" required><br><br>
+
+  <label for="email"><b>Correo Electrónico:</b></label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="mensaje"><b>Mensaje:</b></label><br>
+  <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+  <button type="submit">Enviar</button>
+</form>
+
+    </div>
+</div>
+
+<footer>
+    <p><i>© 2025 Margarita Rodriguez Studio</i></p>
+</footer>
+
+</body>
+</html>
